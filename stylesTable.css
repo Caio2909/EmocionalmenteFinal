@@ -1,0 +1,89 @@
+body {
+    background-color: #a1f1ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f7f7f7;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header h1 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px; 
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+}
+.buttonNova {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+}
+.male {
+    background-color: #90caf9;
+}
+
+.female {
+    background-color: #f48fb1;
+}

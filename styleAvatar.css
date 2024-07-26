@@ -1,0 +1,32 @@
+.colorButton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 50%; 
+  }
+#colorButtons{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+body{
+  background-color: #2196F3;
+}
+  .skinCorButton:focus {
+    outline: none;
+  }
+    #avatarContainer {
+        margin-top: 20px;
+        text-align: center;
+      }
+    #avatar {
+        display: block; 
+        margin: 0 auto; 
+      }
+      .custom-radio {
+        display: none;
+      }
+      
+      

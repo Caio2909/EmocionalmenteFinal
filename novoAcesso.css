@@ -1,0 +1,81 @@
+body {
+    background-color: #a1f1ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 0vh;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #f7f7f7;     
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px; 
+  margin-top: 5px;
+  box-sizing: border-box; 
+}
+.header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.header h1 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+#submitBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.colorButton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 50%; 
+  }
+#colorButtons{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.skinCorButton:focus {
+    outline: none;
+  }
+    #avatarContainer {
+        margin-top: 20px;
+        text-align: center;
+      }
+    #avatar {
+        display: block; 
+        margin: 0 auto; 
+      }
+      .custom-radio {
+        display: none;
+      }
+      
+      
