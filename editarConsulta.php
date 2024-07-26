@@ -1,8 +1,8 @@
 <?php
-session_start(); // Inicie a sessão
+session_start();
 
 if (!isset($_SESSION['login'])) {
-    // Se não estiver autenticado, redirecione para a página de login
+ 
     header("Location: login.php");
     exit();
 }
